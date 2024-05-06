@@ -1,0 +1,81 @@
+<style>
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+
+    }
+    /*psuedo-class*/
+
+    .subscribe-button:hover {
+        opacity: 0.8;
+    }
+    .subscribe-button:active {
+        opacity: 0.5;
+    }
+
+    .join-button:hover {
+        background-color: 41, 118, 211;
+        color: white;
+    
+    }
+    .join-button:active {
+        opacity: 0.7;
+
+
+    }
+    .join-button {
+       background-color: white;
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        height: 36px ;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 1s,
+        color 1s;
+
+    }
+
+    .tweet-button {
+        background-color: rgb(2, 137, 255);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px; 
+        cursor: pointer;
+        margin-left: 8px;
+
+
+        /* Rounded edges can be made by making 'border-
+        radius' half of the smallest number between 
+        the height and width
+        ex: h:10 w:5 = 2.5 border-radius
+        */
+
+    }
+</style>
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+
+<button class="join-button">
+    JOIN
+</button>
+
+
+<button class="tweet-button">
+    Tweet
+</button>
